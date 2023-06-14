@@ -196,10 +196,10 @@ int main(int argc, char **argv)
 
 ### Removing the memsets
 
-Developed By : G.Chethan Kumar
-Register no. : 212222240022
+Developed By :kathiravan p
+Register no. : 212222230063
 
-
+```
 #include "../common/common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -364,9 +364,10 @@ int main(int argc, char **argv)
 
     return (0);
 }
+```
 
 ## Output:
-
+```
 root@MidPC:/home/student/Desktop# nvcc --version
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2019 NVIDIA Corporation
@@ -392,12 +393,12 @@ No kernels were profiled.
 No API activities were profiled.
 ==9917== Warning: Some profiling data are not recorded. Make sure cudaProfilerStop() or cuProfilerStop() is called before application exit to flush profile data.
 ======== Error: Application received signal 139
-
+```
 ![pcaig1](https://github.com/Gchethankumar/PCA-Matrix-Addition-With-Unified-Memory/assets/118348224/7b60baa6-81a7-4258-add2-fd75c8939930)
 
 
 ### Removing the memsets
-
+```
 root@MidPC:/home/student/Desktop# nvcc test.cu
 root@MidPC:/home/student/Desktop# ./a.out
 ./a.out Starting using Device 0: NVIDIA GeForce GTX 1660 SUPER
@@ -419,7 +420,7 @@ No API activities were profiled.
 ==10297== Warning: Some profiling data are not recorded. Make sure cudaProfilerStop() or cuProfilerStop() is called before application exit to flush profile data.
 ======== Error: Application received signal 139
 
-
+```
 ![pcaig2](https://github.com/Gchethankumar/PCA-Matrix-Addition-With-Unified-Memory/assets/118348224/890e1a04-2832-4869-9028-6cf685cb9100)
 
 ## Result:
